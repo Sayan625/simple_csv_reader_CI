@@ -15,9 +15,9 @@ $this->load->library('ImportCSV');
 $csvData = $this->ImportCSV->get_csv_data('path/to/Test.csv'); //path to csv file
 ```
 ## accepted formats
-name,phone,location,skills
+name, phone, location, skills
 
-Some name,123456789,abc,"Canva, Effective Communication, Search Engine Optimization (SEO), Social Media Marketing, Search Engine Marketing (SEM)"
-Some Othername,123456789, abfdfc, web development
+Some name, 123456789, abc fdfdfdf, "Canva, Effective Communication, Social Media Marketing, Search Engine Marketing (SEM)"
+Some Othername, 123456789, abfdfc, web development
 
 
